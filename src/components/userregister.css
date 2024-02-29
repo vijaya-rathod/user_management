@@ -1,0 +1,144 @@
+
+.registerform {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    padding-top: 10px;
+    /* background: linear-gradient(to  left,  rgba(35, 203, 233, 0.527) 50%, rgba(5, 112, 161, 0.445) 100%); */
+  }
+  .passwordupdate{
+    margin-top: 20px;
+  }
+  .top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .registerform .registerheader {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .updateform{
+    width: 450px;
+  }
+  .updateform .updateText{
+    display: flex;
+    justify-content: center;
+  }
+  .registerform form {
+    padding: 5px;
+    }
+.registerform .flexdiv{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.registerform .flexdiv .left-content,.right-content{
+      width: 400px;
+}
+.registerform .flexdiv .left-content{
+  margin-right: 30px;
+}
+.registerform .flexdiv .right-content{
+  margin-left: 30px;
+}
+  .adminregisterForm{
+    margin-top: 50px;
+    width: 500px;
+  }
+  .adminregisterForm .adminheader{
+    display: flex;
+    justify-content: center;
+  }
+  /* .registerform form div {
+    margin-bottom: 20px;
+  } */
+  .updateText{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: -0px;
+  }
+  .align{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* width: 100%; */
+    /* display: inline; */
+    justify-content: space-between;
+  }
+  .align .align-right{
+    width: 55%;
+  }
+  .align .align-right #male{
+    margin-left: -18px;
+  }
+  .align .align-right #female{
+    margin-left: 18px;
+  }
+  .registerform .align-left {
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Vertically center labels */
+    justify-content: flex-end;
+  }
+  .registerform input {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+  }
+  .submit-container button{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    background: linear-gradient(to  left,  rgba(35, 203, 233, 0.527) 50%, rgba(5, 112, 161, 0.445) 100%);
+  }
+  .adminregisterForm label{
+    font-weight: bold;
+    width: 55%;
+  }
+  .adminregisterForm input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 55%;
+    border-radius: 5px;
+  }
+  /* .updateform{
+    margin-top: 100px;
+  } */
+  .updateform .errorMessage{
+    margin-left: 180px;
+  }
+  .errorMessage{
+    color: red;
+    height: 14px;
+    margin-top: -1px;
+    margin-left: 148px; 
+    display: block;
+    font-size: 12px;
+    /* text-align: left; */
+  }
+  .haveaccount,.goback{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .updateError{
+    color: red;
+    margin-left: 150px;
+    font-size: 12px;
+    margin-top: -5px;
+  } */
